@@ -1,42 +1,48 @@
-Contact Form with SignUp and Login
+# Contact Form with SignUp and Login
 This project is a robust Contact Form built with Node.js and MongoDB. It offers essential functionalities such as user SignUp and Login while ensuring data security and seamless user experience.
 
-🚀 Features
-User SignUp:
+# 🚀 Features
+3 User SignUp:
 Collects user details (First Name, Last Name, Email, and Password) and validates the inputs for accuracy.
-Login Authentication:
+# Login Authentication:
 Verifies user credentials against the database to ensure secure access.
-MongoDB Integration:
+# MongoDB Integration:
 Data is stored in a NoSQL MongoDB database, ensuring scalability and flexibility.
-Custom Validation:
+# Custom Validation:
 Implements input validation to prevent invalid data entry.
-📂 Technologies Used
+# 📂 Technologies Used
 Backend Framework: Node.js and Express.js
 Database: MongoDB with Mongoose ORM
 Frontend Rendering: EJS Template Engine
-💻 How to Set Up Locally
+# 💻 How to Set Up Locally
 Clone the repository:
 
-bash
-Copy code
-git clone <repository-url>
+```bash
+  git clone <repository-url>
+```
+
 Install dependencies:
 
-bash
-Copy code
-npm install
+```bash
+ npm install
+```
+
 Configure MongoDB:
 
 Update the MONGODB_URI variable with your database connection string.
 Run the application:
 
-bash
-Copy code
-npm start
+```bash
+ nodemon index.js
+```
 Access the application at:
-http://localhost:3000
 
-🛡️ Security Recommendations
+```bash
+ http://localhost:3000
+```
+
+# 🛡️ Security Recommendations
 Hash Passwords: Use libraries like bcrypt to hash passwords before storing them.
 Environment Variables: Keep sensitive credentials (like the MongoDB URI) in .env files and never push them to GitHub.
+
 Feel free to fork this project, contribute, or open issues to suggest improvements! 😊

@@ -1,0 +1,97 @@
+body{
+    font-family: Mabry001, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #E7D4D1;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #ECE2E4 !important;
+    height: 5rem;
+}
+
+/* SignUp and Login page icon */
+.icon {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.icon i {
+    font-size: 5rem;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.error + span {
+    color: red;
+    font-size: 0.8em;
+}
+
+label{
+    color: chocolate;
+}
+
+/* Login And SignUp */
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: none !important;
+}
+
+.main_card{
+    background-color: #1a1a3d !important;
+
+}
+
+.body{
+    background-color: #B2A09D;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem !important;
+}
+
+.show-image{
+    height: 70vh;
+}
+
+/* footer section */
+#page_footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_term a{
+    text-decoration: none;
+}
+

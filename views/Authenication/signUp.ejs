@@ -1,0 +1,61 @@
+<% layout("/layout/boilerplate") %>
+    <div class="row body">
+        <div class="card main_card mt-4 mb-4 col-8 pb-5 pt-5">
+        <div class="row page pe-3 ps-3">
+            <div class="col-sm-5 mb-4 mb-sm-0 ms-4 card_1">
+                <div class="pt-4 pb-2">
+                    <div class="icon mt-2 mb-2">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </div>
+                    <form action="/SignUp" method="post" id="SignUp" novalidate>
+                            <div class="mb-3">
+                                <label for="First_name" class="form-title">First Name</label>
+                                <input type="text" name="FirstName" id="First_name" placeholder="First Name"
+                                    class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Last_name" class="form-title">Last Name</label>
+                                <input type="text" name="LastName" id="Last_name" placeholder="Last Name"
+                                    class="form-control" required>
+                            </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-title">Email</label>
+                            <input type="email" name="emails" id="email" placeholder="Email" class="form-control"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-title">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Password"
+                                class="form-control" required>
+                        </div>
+                        <button class="btn btn-success me-2" type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-sm-5 ms-4 mt-4">
+                <div class="card pt-2 pe-2 ps-2 pb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">What Our Users Say</h5>
+                        <div class="testimonial">
+                            <p class="card-text">"This service has changed my life! The signup process was easy, and I
+                                love the features!"</p>
+                            <footer class="blockquote-footer">John Doe</footer>
+                        </div>
+                        <hr>
+                        <div class="testimonial">
+                            <p class="card-text">"I highly recommend this platform. The support team is fantastic!"</p>
+                            <footer class="blockquote-footer">Jane Smith</footer>
+                        </div>
+                        <hr>
+                        <div class="testimonial">
+                            <p class="card-text">"A great experience from start to finish. I’m very satisfied!"</p>
+                            <footer class="blockquote-footer">Alice Johnson</footer>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>

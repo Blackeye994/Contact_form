@@ -4,7 +4,7 @@ if(process.env.NODE_ENV != "production"){
 }
 
 const express = require("express");
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 
 const SignUpRoutes = require("./Route/SignUp.js");

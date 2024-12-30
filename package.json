@@ -2,6 +2,13 @@
   "engines": {
     "node": "20.15.1"
   },
+  "name": "internships-tasks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
@@ -13,14 +20,8 @@
     "mongoose": "^8.9.0",
     "sweetalert2": "^11.14.5"
   },
-  "name": "internships-tasks",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Khalil",
   "license": "ISC",
   "description": ""
 }
